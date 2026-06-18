@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-primary: #ec4899;
+  --color-brand-hover: #db2777;
+  
+  --color-light-bg: #ffffff;
+  --color-light-sec-bg: #fff5f8;
+  --color-light-text: #111827;
+  --color-light-border: #f3f4f6;
+
+  --color-dark-bg: #0f0f0f;
+  --color-dark-sec-bg: #18181b;
+  --color-dark-text: #f9fafb;
+  --color-dark-border: #27272a;
+
+  --color-profit: #10b981;
+  --color-loss: #ef4444;
+
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+@layer base {
+  :root {
+    --bg-main: var(--color-light-bg);
+    --bg-secondary: var(--color-light-sec-bg);
+    --text-main: var(--color-light-text);
+    --border-color: var(--color-light-border);
+    --text-muted: #6b7280;
+    --shadow-main: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  }
+
+  .dark {
+    --bg-main: var(--color-dark-bg);
+    --bg-secondary: var(--color-dark-sec-bg);
+    --text-main: var(--color-dark-text);
+    --border-color: var(--color-dark-border);
+    --text-muted: #9ca3af;
+    --shadow-main: 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+  }
+
+  body {
+    background-color: var(--bg-main);
+    color: var(--text-main);
+    font-family: var(--font-sans);
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+}
+
+@layer components {
+  .clean-card {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-main);
+    border-radius: 1rem;
+    transition: all 0.2s ease;
+  }
+  
+  .btn-primary {
+    background-color: var(--color-brand-primary);
+    color: #ffffff;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.2s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: var(--color-brand-hover);
+  }
+  
+  .btn-secondary {
+    background-color: transparent;
+    color: var(--text-main);
+    border: 1px solid var(--border-color);
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: all 0.2s ease;
+  }
+  
+  .btn-secondary:hover {
+    background-color: var(--bg-secondary);
+    border-color: var(--text-muted);
+  }
+
+  .input-field {
+    width: 100%;
+    background-color: var(--bg-main);
+    border: 1px solid var(--border-color);
+    color: var(--text-main);
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    transition: all 0.2s ease;
+  }
+  
+  .input-field:focus {
+    outline: none;
+    border-color: var(--color-brand-primary);
+    box-shadow: 0 0 0 2px rgba(236, 72, 153, 0.2);
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}

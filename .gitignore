@@ -1,0 +1,15 @@
+# dependencies
+node_modules/
+
+# production build
+build/
+
+# environment variables
+.env
+
+# logs
+npm-debug.log*
+
+# mac/windows
+DS_Store
+Thumbs.db
