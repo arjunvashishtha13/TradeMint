@@ -14,9 +14,7 @@
 </p>
 
 ## 🚀 Live Demo
-**[View Live Application]((https://trade-mint-git-main-arjunvashishtha13-7704s-projects.vercel.app/))**  
-
-
+🌐 **TradeMint:** https://trade-mint-git-main-arjunvashishtha13-7704s-projects.vercel.app/
 ---
 
 ## 📸 Platform Previews
