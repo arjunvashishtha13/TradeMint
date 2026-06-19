@@ -14,8 +14,8 @@
 </p>
 
 ## 🚀 Live Demo
-**[View Live Application](https://your-vercel-link.vercel.app)**  
-*(Replace with your actual Vercel link!)*
+**[View Live Application]((https://trade-mint-git-main-arjunvashishtha13-7704s-projects.vercel.app/))**  
+
 
 ---
 
@@ -33,17 +33,19 @@
 
 ---
 
-## 💡 Why TradeMint? (The Interview Pitch)
+## 💡 Why TradeMint?
 
-I built TradeMint to demonstrate my ability to architect and develop a robust, full-stack application from the ground up. This project showcases my proficiency in bridging complex backend business logic (simulated trading algorithms, portfolio math, authentication) with a highly responsive, data-driven frontend.
+TradeMint is a virtual stock trading platform built to simulate real-world investing and portfolio management. The project allows users to trade stocks using virtual capital, track portfolio performance, manage watchlists, and analyze investment decisions through an intuitive dashboard.
 
-**Key Technical Achievements:**
-- **Data Visualization:** Engineered interactive historical performance charts and sector allocation graphs using `Recharts` to parse and visualize complex portfolio data.
-- **State Management & Context:** Utilized React's Context API (`AuthContext`, `ThemeContext`) to efficiently manage global user sessions and theme toggling without prop drilling.
-- **Secure Authentication:** Implemented a robust JWT-based authentication flow with `bcrypt` password hashing and secure HTTP middleware to protect API endpoints.
-- **RESTful API Design:** Designed clean, scalable backend endpoints following the strict MVC (Model-View-Controller) architecture, ensuring separation of concerns between routes, controllers, and Mongoose database models.
+### Key Highlights
 
----
+* Developed a full-stack trading platform with secure user authentication, portfolio management, and transaction tracking.
+* Built real-time portfolio analytics including profit/loss calculations, asset allocation insights, and performance visualization.
+* Integrated live market data to provide dynamic stock prices and realistic trading simulations.
+* Designed scalable REST APIs using Node.js, Express.js, and MongoDB following MVC architecture principles.
+* Implemented interactive dashboards, charts, and watchlist management features to enhance user experience.
+* Engineered role-based authentication using JWT and bcrypt to ensure secure access and data protection.
+
 
 ## 🛠️ Technical Stack
 
@@ -123,12 +125,6 @@ npm run dev
 
 ---
 
-## 🤝 Let's Connect
-
-I'm currently seeking Software Engineering roles! If you're a recruiter or hiring manager, I'd love to chat.
-- **LinkedIn:** [Your LinkedIn URL](#)
-- **Portfolio:** [Your Portfolio URL](#)
-- **Email:** your.email@example.com
 
 ---
-*TradeMint was built by [Your Name].*
+Author- ARJUN VASHISHTHA
