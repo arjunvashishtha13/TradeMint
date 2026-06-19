@@ -45,9 +45,7 @@ export default function LandingPage() {
           <Link to="/register" className="btn-primary text-lg px-8 py-4 flex items-center gap-2">
             Start Trading Now <ArrowRight className="w-5 h-5" />
           </Link>
-          <Link to="/dashboard/overview" className="btn-secondary text-lg px-8 py-4">
-            View Demo Dashboard
-          </Link>
+
         </div>
       </section>
 
@@ -89,7 +87,7 @@ export default function LandingPage() {
 
       {/* Footer */}
       <footer className="py-12 text-center text-[var(--text-muted)] border-t border-[var(--border-color)]">
-        <p>© 2024 TradeMint. Built for portfolio demonstration purposes.</p>
+        <p>© 2026 TradeMint. Built for portfolio demonstration purposes.</p>
       </footer>
     </div>
   );
