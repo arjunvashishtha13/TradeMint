@@ -14,7 +14,7 @@
 </p>
 
 ## 🚀 Live Demo
-🌐 **TradeMint:** https://trade-mint-git-main-arjunvashishtha13-7704s-projects.vercel.app/
+🌐 **TradeMint:** https://trade-mint-seven.vercel.app/
 ---
 
 ## 📸 Platform Previews
@@ -30,6 +30,18 @@
 </div>
 
 ---
+## ✨ Features
+
+- Secure JWT Authentication
+- Virtual Stock Trading
+- Real-Time Market Data (Finnhub API)
+- Portfolio Analytics Dashboard
+- Watchlist Management
+- Investment Goals Tracking
+- Trading Journal
+- Transaction History
+- Asset Allocation Insights
+- Dark / Light Theme
 
 ## 💡 Why TradeMint?
 
@@ -84,7 +96,7 @@ The application follows a strictly decoupled client-server architecture:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/TradeMint.git
+git clone https://github.com/arjunvashishtha13/TradeMint.git
 cd TradeMint
 ```
 
@@ -125,4 +137,9 @@ npm run dev
 
 
 ---
-Author- ARJUN VASHISHTHA
+## 👨‍💻 Author
+
+**Arjun Vashishtha**
+
+- GitHub: https://github.com/arjunvashishtha13
+- LinkedIn: https://www.linkedin.com/in/arjun-vashishtha13
